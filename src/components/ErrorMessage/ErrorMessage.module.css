@@ -1,0 +1,12 @@
+.text {
+	width: 600px;
+	margin: 100px auto;
+	line-height: 1.7;
+	color: #ffff00;
+	font-size: 26px;
+	text-align: center;
+	text-shadow: 0 0 2px white;
+	-webkit-text-stroke: #ffff00;
+	-webkit-text-stroke-width: .5px;
+	-webkit-text-fill-color: transparent;
+}

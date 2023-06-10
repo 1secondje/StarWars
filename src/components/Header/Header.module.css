@@ -1,0 +1,39 @@
+.header {
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+
+.link a {
+	display: block;
+	margin: 0 10px;
+	padding: 7px 10px;
+	border: 2px solid transparent;
+	min-width: 70px;
+	color: white;
+	text-align: center;
+	font-weight: 700;
+	text-shadow: 0 0 2px white, 0 0 40px white;
+	transition: .4s;
+	border-radius: 3px;
+}
+
+.link :global(a.active) {
+	border: 2px solid;
+	text-shadow: none;
+}
+
+.logo {
+	width: 60px;
+	height: 60px;
+	margin-right: 30px;
+	object-fit: cover;
+	object-position: center center;
+	filter: drop-shadow(0 0 1px white);
+}
