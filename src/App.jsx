@@ -7,7 +7,7 @@ import styles from "./styles/App.module.css";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="StarWars">
         <div className={styles.wrapper}>
           <Header />
           <Routes>
