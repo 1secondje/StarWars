@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://1secondje.github.io/starWars",
+  "homepage": "https://1secondje.github.io/StarWars",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
