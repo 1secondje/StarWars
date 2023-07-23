@@ -8,7 +8,7 @@ import icon from "./img/favorite-fill.svg";
 const Favorite = () => {
   const [count, setCount] = useState();
 
-  const storeData = useSelector((state) => state.favoriteReducer);
+  const storeData = useSelector((state) => state.favorite);
 
   useEffect(() => {
     const length = Object.keys(storeData).length;

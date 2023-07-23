@@ -6,7 +6,7 @@ import styles from "./FavoritePage.module.css";
 
 const FavoritePage = () => {
   const [people, setPeople] = useState([]);
-  const storeData = useSelector((state) => state.favoriteReducer);
+  const storeData = useSelector((state) => state.favorite);
 
   useEffect(() => {
     const arr = Object.entries(storeData);
@@ -22,7 +22,7 @@ const FavoritePage = () => {
       });
       setPeople(res);
     }
-  });
+  },[]);
 
   return (
     <>

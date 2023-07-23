@@ -28,7 +28,7 @@ const PersonPage = ({ setErrorApi }) => {
   const [personFilms, setPersonFilms] = useState(null);
   const [personFavorite, setPersonFavorite] = useState(false);
 
-  const storeData = useSelector(state => state.favoriteReducer);
+  const storeData = useSelector(state => state.favorite);
 
   const { id } = useParams();
 

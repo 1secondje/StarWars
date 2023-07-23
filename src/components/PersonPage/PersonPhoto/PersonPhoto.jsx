@@ -1,10 +1,7 @@
 import { useDispatch } from "react-redux";
 import  cn  from "classnames";
 
-import {
-  setPersonToFavorite,
-  removePersonFromFavorite,
-} from "../../../store/actions";
+import { removePersonFromFavorite, setPersonToFavorite } from "../../../store/favoriteSlice";
 
 import iconFavorite from "./img/favorite.svg";
 import iconFavoriteFill from "./img/favorite-fill.svg";
